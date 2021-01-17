@@ -4,7 +4,7 @@ const word = document.createElement('h1')
 const def = document.createElement('p')
 
 const randomword = () => {
-    fetch('http://random-word-api.herokuapp.com/word?number=1')
+    fetch('https://random-word-api.herokuapp.com/word?number=1')
         .then(response => {
             return response.json();
         })
