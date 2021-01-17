@@ -1,3 +1,4 @@
+import API_KEY from './secret.config'
 const body = document.querySelector('body')
 const button = document.querySelector('.button')
 const word = document.createElement('h1')
