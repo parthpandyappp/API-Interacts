@@ -14,5 +14,4 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          export API_KEY = ${{secrets.API_KEY}}
+      - run: export API_KEY = ${{secrets.API_KEY}}
