@@ -17,3 +17,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    #demo h1{
+        font-size: 2.5rem;
+    }
+    
+    #demo p{
+        font-size: 1.2rem;
+    }
+  }
