@@ -1,4 +1,3 @@
-import API_KEY from './secret.js'
 const body = document.querySelector('body')
 const button = document.querySelector('.button')
 const word = document.createElement('h1')
@@ -22,7 +21,7 @@ const randomword = () => {
 
 const randomDefinition = (word) => {
     // console.log(word.textContent)
-    fetch('https://dictionaryapi.com/api/v3/references/collegiate/json/'+(word.textContent)+"?key="+(API_KEY))
+    fetch('https://dictionaryapi.com/api/v3/references/collegiate/json/'+(word.textContent)+"?key="+"0434c413-f173-4f94-948d-a4ae26f3447f")
         .then(response => {
             return response.json();
         })
