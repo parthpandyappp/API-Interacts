@@ -1,3 +1,3 @@
 let info = {
-    API_KEY : ${{secrets.API_KEY}}
+    API_KEY = ${{secrets.API_KEY}}
 }
