@@ -1,4 +1,3 @@
-import API_KEY from './.env'
 const body = document.querySelector('body')
 const button = document.querySelector('.button')
 const word = document.createElement('h1')
@@ -22,7 +21,7 @@ const randomword = () => {
 
 const randomDefinition = (word) => {
     // console.log(word.textContent)
-    fetch('https://dictionaryapi.com/api/v3/references/collegiate/json/'+(word.textContent)+"?key="+(API_KEY))
+    fetch('https://dictionaryapi.com/api/v3/references/collegiate/json/'+(word.textContent)+"?key="+(env.API_KEY))
         .then(response => {
             return response.json();
         })
