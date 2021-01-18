@@ -1,3 +1,4 @@
-let info = {
+info = 
+{
     API_KEY = ${{secrets.API_KEY}}
 }
