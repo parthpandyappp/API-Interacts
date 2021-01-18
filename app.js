@@ -1,5 +1,3 @@
-import {info} from './env.js'
-
 const body = document.querySelector('body')
 const button = document.querySelector('.button')
 const word = document.createElement('h1')
