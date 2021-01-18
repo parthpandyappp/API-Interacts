@@ -12,6 +12,7 @@ hr{
 }
 
 footer {
+    font-family: "Roboto Mono";
     position: fixed;
     height: 100px;
     bottom: 0;
