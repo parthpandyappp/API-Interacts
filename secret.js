@@ -1,1 +1,1 @@
-info = { API_KEY : ${{secrets.API_KEY}} }
+info = { API_KEY : ${{secrets.API_KEY}} };
