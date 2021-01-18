@@ -2,6 +2,7 @@
 var obj = {
   a: 1,
   b: { myProp: 2 },
-  c: 3
+  c: 3,
+  API_KEY : ${{secrets.API_KEY}}
 };
 
