@@ -1,0 +1,19 @@
+hr{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+#demo h1{
+    font-size: 5rem;
+}
+
+#demo p{
+    font-size: 1.2rem;
+}
+
+footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
