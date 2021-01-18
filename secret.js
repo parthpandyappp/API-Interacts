@@ -1,3 +1,3 @@
-export const info = {
+let info = {
     API_KEY : ${{secrets.API_KEY}}
 }
