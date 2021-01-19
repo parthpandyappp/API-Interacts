@@ -13,6 +13,29 @@
 </head>
 
 <body>
+    <script>
+        var currentTheme = 'dark';
+
+        function dark() {
+            var x = document.body;
+            x.classList.toggle("dark-mode");
+
+            if (currentTheme === 'dark') {
+                document.getElementById('toggleknop').innerHTML =
+                    '<a style="font-size: 1.1rem;">Light <i class="fas fa-sun" id="maan" style="color:#FCD34D;font-size: 1.1rem"></i></a>';
+                currentTheme = 'sun';
+            } else {
+                document.getElementById('toggleknop').innerHTML =
+                    '<a style="font-size: 1.1rem;">Dark <i class="fas fa-moon" id="maan" style="color:#E5E7EB;font-size: 1.1rem"></i></a>';
+                currentTheme = 'dark';
+            }
+        }
+    </script>
+    <div class="container">
+        <button id="toggleknop" onclick="dark()" class="mt-4 btn btn-primary" style="font-family: Yusei Magic;"><a
+                style="font-size: 1rem;">Dark <i class="fas fa-moon" id="zon"
+                    style="color:#E5E7EB; font-size: 1.1rem;"></i></a></button>
+    </div>
     <h1 class="display-2 text-center" style="font-family: Yusei Magic;">Wordize</h1>
     <p class="text-center" style="font-family: Potta One;">Build your vocabulary by learning a new word, everyday!</p>
     <hr>
