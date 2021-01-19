@@ -16,5 +16,5 @@ A simple web-app which throws a random word at interface and further get's into 
 
 - Now available in Dark mode
 <p align="center">
-  <img src="https://i.ibb.co/DYVW8kP/screely-1610973108116.png" title="Home"/>
+  <img src="https://i.ibb.co/9ZgqHZS/screely-1611061934937.png" title="Home"/>
 </p>
