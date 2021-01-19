@@ -13,3 +13,8 @@ A simple web-app which throws a random word at interface and further get's into 
 <p align="center">
   <img src="https://i.ibb.co/DYVW8kP/screely-1610973108116.png" title="Home"/>
 </p>
+
+- Now available in Dark mode
+<p align="center">
+  <img src="https://i.ibb.co/DYVW8kP/screely-1610973108116.png" title="Home"/>
+</p>
